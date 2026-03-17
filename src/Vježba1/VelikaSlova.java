@@ -1,3 +1,5 @@
+package Vježba1;
+
 import java.util.ArrayList;
 import java.util.stream.Collectors;
 
