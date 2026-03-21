@@ -1,20 +1,19 @@
 package Vježba1;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.stream.Collectors;
 
 public class VelikaSlova {
 
     public static void main(String[] args) {
-        String[] words = { "java", "python", "rust" };
 
-        String velikaSlova = velikaSlova(new ArrayList<>(java.util.Arrays.asList(words)));
-        System.out.println(velikaSlova);
+        String[] words = {"java", "python", "rust"};
+        Arrays.stream(words).map(String::toUpperCase).forEach(System.out::println);
+
     }
 
-    public static String velikaSlova(ArrayList<String> rjc) {
-        return rjc.stream().map(String::toUpperCase).collect(Collectors.joining());
-    }
+
 
 }
 
