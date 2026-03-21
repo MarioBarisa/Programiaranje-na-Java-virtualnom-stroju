@@ -15,7 +15,7 @@ public class sadrziRijec {
 
     public static void main(String[] args){
 
-        String[] words = {"java", "python", "rust", "JavaScript"};
+        String[] words = {"Script", "java", "python", "rust", "JavaScript"};
         filter(words);
 
     }
