@@ -10,5 +10,6 @@ public class Main {
 
            System.out.println(Ivan.izracujanPlacu());
            System.out.println(Popsi.izracujanPlacu());
+           //System.out.println(Popsi.izracujanPlacu());
            }
 }
